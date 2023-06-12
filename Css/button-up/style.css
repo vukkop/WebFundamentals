@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+  margin: 20px;
+}
+
+.search {
+  background-color: white;
+  color:rgb(0, 204, 255);
+  border: 2px solid rgb(0, 204, 255);
+  border-radius: 14px;
+  padding: 2px 40px;
+  width: fit-content;
+}
+
+#search {
+  font-weight: 600;
+}
+
+.plus {
+  background-color: rgb(59, 212, 192);
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+
+}
+
+#plus {
+  font-weight: 800;
+}
+
+.create {
+  background-color: dodgerblue;
+  border: 2px solid black;
+  width: fit-content;
+  padding: 4px 20px;
+  box-shadow: 3px 3px 0px -1px #000000;;
+}
+
+#create {
+  color: white;
+}
+
