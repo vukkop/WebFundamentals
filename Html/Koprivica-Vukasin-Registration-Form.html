@@ -8,64 +8,66 @@
 <body>
 
   <h1>Registration Fornm</h1>
-  <div>
-    <label for="name">First Name:*</label>
-    <input type="text" name="name">
-  </div>
-  <div>
-    <label for="lastName">Last Name:*</label>
-    <input type="text" name="lastName">
-  </div>
-  <div>
-    <label for="email">Email Address:*</label>
-    <input type="text" name="email">
-  </div>
-  <div>
-    <label for="password">Password:*</label>
-    <input type="password" name="password">
-  </div>
-  <div>
-    <label for="confirmPassword">Confirm Password:*</label>
-    <input type="password" name="confirmPassword">
-  </div>
-  <div>
-    <label for="dob">Birthday:</label>
-    <input type="date" name="dob">
-  </div>
-  <div>
-    <label for="gi">Gender Identity:</label>
+  <form action="submit">
     <div>
-      <input type="radio" name="gi" value="male" id="male">
-      <label for="male">Male</label>
-      <input type="radio" name="gi" value="female" id="female">
-      <label for="female">Female</label>
-      <input type="radio" name="gi" value="non-binary" id="non-binary">
-      <label for="non-binary">Non-binary</label>
-      <input type="radio" name="gi" value="no-answer" id="no-answer">
-      <label for="no-answer">I prefer not to answer</label>
+      <label for="name">First Name:*</label>
+      <input type="text" name="name" id="name">
     </div>
-  </div>
-  <div>
     <div>
-      <label for="desription">A short desription about myself:</label>
+      <label for="lastName">Last Name:*</label>
+      <input type="text" name="lastName" id="lastName">
     </div>
-    <textarea name="desription" id="" cols="30" rows="10"></textarea>
-  </div>
-  <div>
-    <label for="stack"></label>
-    <select name="stack">
-      <option value="JavaScript">JavaScript</option>
-      <option value="Python">Python</option>
-      <option value="C#">C#</option>
-    </select>
-  </div>
-  <div>
-    <input type="checkbox" name="accept">
-    <label for="accept"> Yes, I would like to receive periodic email updates</label>
-  </div>
+    <div>
+      <label for="email">Email Address:*</label>
+      <input type="text" name="email" id="email">
+    </div>
+    <div>
+      <label for="password">Password:*</label>
+      <input type="password" name="password" id="password">
+    </div>
+    <div>
+      <label for="confirmPassword">Confirm Password:*</label>
+      <input type="password" name="confirmPassword" id="confirmPassword">
+    </div>
+    <div>
+      <label for="dob">Birthday:</label>
+      <input type="date" name="dob" id="dob">
+    </div>
+    <div>
+      <label>Gender Identity:</label>
+      <div>
+        <input type="radio" name="gi" value="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gi" value="female" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gi" value="non-binary" id="non-binary">
+        <label for="non-binary">Non-binary</label>
+        <input type="radio" name="gi" value="no-answer" id="no-answer">
+        <label for="no-answer">I prefer not to answer</label>
+      </div>
+    </div>
+    <div>
+      <div>
+        <label for="description">A short description about myself:</label>
+      </div>
+      <textarea name="description" id="description" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+      <label for="stack"></label>
+      <select name="stack" id="stack">
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="C#">C#</option>
+      </select>
+    </div>
+    <div>
+      <input type="checkbox" name="accept" id="accept">
+      <label for="accept"> Yes, I would like to receive periodic email updates</label>
+    </div>
+  </form>
   <input type="submit" value="Create Account">
   <div>
-    <p>* inicate a required field</p>
+    <p>* indicate a required field</p>
   </div>
 
 </body>
