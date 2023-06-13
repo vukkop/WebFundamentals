@@ -1,0 +1,27 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+
+h1 {
+  background-color: black;
+  color: antiquewhite;
+  padding-left: 20px;
+}
+span {
+  color: aqua;
+}
+
+h2 {
+  text-align: center;
+  background-color: blueviolet;
+  color: antiquewhite;
+  font-style: italic;
+  font-weight: 400;
+}
+
+h3 {
+  background-color:lightblue;
+  text-decoration: underline;
+  text-align: end;
+  padding-right: 20px;
+}
