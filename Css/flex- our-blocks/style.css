@@ -2,52 +2,7 @@
   width: 950px;
   background-color: silver;
   margin: 0px auto;
-}
-
-.top-nav {
-  height: 150px;
-  background-color: green;
-}
-
-.side-nav {
-  height: 300px;
-  width: 200px;
-  background-color: blue;
-}
-
-.main {
-  height: 400px;
-  width: 700px;
-  background-color: red;
-}
-
-.sub-content {
-  height: 200px;
-  width: 210px;
-  background-color: yellow;
-}
-
-#advertisement {
-  height: 120px;
-  width: 660px;
-  background-color: purple;
-}
-
-.row {
-  /* TODO - what should go here? */
-}
-
-
-
-
-/* .container {
-  width: 950px;
-  background-color: silver;
-  margin: 0px auto;
   padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-justify-content: space-between;
 }
 
 .top-nav {
@@ -61,16 +16,14 @@ justify-content: space-between;
   height: 300px;
   width: 200px;
   background-color: blue;
+  margin-right: 20px;
 }
 
 .main {
   height: 400px;
   width: 700px;
   background-color: red;
-  display: flex;
-  flex-wrap: wrap;
   padding: 20px;
-
 }
 
 .sub-content {
@@ -78,12 +31,15 @@ justify-content: space-between;
   width: 210px;
   background-color: yellow;
   margin-right: 15px;
-
+  margin-bottom: 30px;
 }
 
 #advertisement {
   height: 120px;
   width: 660px;
   background-color: purple;
+}
 
-} */
+.row {
+  display: flex;
+}
