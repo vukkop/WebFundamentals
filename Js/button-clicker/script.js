@@ -1,5 +1,5 @@
 function login(element) {
-    element.innerText = "Logout"
+  element.innerText = "Logout"
 }
 
 function hide(element) {

@@ -23,6 +23,15 @@
 .mt-3{
   margin-top: 15px;
 }
+.btn {
+  padding: 3px 10px;
+  font-size: 0.6em;
+  color: antiquewhite;
+  background-color: cornflowerblue;
+  border-color: black;
+  box-shadow: 2px 2px 0px black;
+  font-family: Arial, Helvetica, sans-serif
+}
 
 /* Navbar */
 
@@ -40,31 +49,24 @@ input{
   padding: 2px;
 }
 
-.btn{
-  padding: 3px 10px;
-  font-size: 0.6em;
-  color: antiquewhite;
-  background-color:cornflowerblue;
-  border-color: black;
-  box-shadow: 2px 2px 0px black;
-  font-family: Arial, Helvetica, sans-serif
-}
+/* Main view */
 
 main{
-  justify-content: space-between;
-
+justify-content: space-between;
 }
 
-/* Main view */
+/* Main view left*/
+
 .content{
   flex-direction: column;
   flex: 2;
   padding-right: 3%;
 }
+
+/* Main view right*/
 aside{
   flex-direction: column;
   flex: 1;
-
 }
 .card{
   border: 3px solid black;
@@ -73,18 +75,17 @@ aside{
   align-items: center;
 }
 
-.card-side{
+/* Card */
+.card-main{
   flex: 2;
   text-align: center;
 }
-
 .btn-yellow{
   background-color:khaki;
   color: black;
   font-weight: 700;
   padding: 5px 15px;
 }
-
 .card-content{
   flex: 4;
   padding: 4%;
