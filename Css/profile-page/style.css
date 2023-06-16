@@ -5,18 +5,19 @@
   padding: 0px;
 }
 
-.container {
-  width: 70%;
-  margin: 0px auto;
-  display: flex;
-  justify-content:space-between;
-}
 
 /* navigation */
 .nav {
   background-color: rgb(56, 56, 56);
   color: antiquewhite;
   margin-bottom: 20px;
+}
+
+.container {
+  width: 70%;
+  margin: 0px auto;
+  display: flex;
+  justify-content:space-between;
 }
 
 .nav-title {

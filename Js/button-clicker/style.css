@@ -1,0 +1,102 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+
+/* Utility classes */
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+}
+.flex{
+  display: flex;
+}
+.mt-1{
+  margin-top: 4px;
+}
+.mt-2{
+  margin-top: 8px;
+}
+.mt-3{
+  margin-top: 15px;
+}
+
+/* Navbar */
+
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 3% 3% 3%;
+  align-items: center;
+  margin-bottom: 3%;
+}
+input{
+  padding: 2px;
+}
+
+.btn{
+  padding: 3px 10px;
+  font-size: 0.6em;
+  color: antiquewhite;
+  background-color:cornflowerblue;
+  border-color: black;
+  box-shadow: 2px 2px 0px black;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+main{
+  justify-content: space-between;
+
+}
+
+/* Main view */
+.content{
+  flex-direction: column;
+  flex: 2;
+  padding-right: 3%;
+}
+aside{
+  flex-direction: column;
+  flex: 1;
+
+}
+.card{
+  border: 3px solid black;
+  padding: 15px;
+  margin: 0% 0% 4% 0%;
+  align-items: center;
+}
+
+.card-side{
+  flex: 2;
+  text-align: center;
+}
+
+.btn-yellow{
+  background-color:khaki;
+  color: black;
+  font-weight: 700;
+  padding: 5px 15px;
+}
+
+.card-content{
+  flex: 4;
+  padding: 4%;
+}
+
+/* Side card */
+
+.btn-green{
+  align-self: auto;
+  background-color:rgb(95, 189, 82);
+  color: black;
+  font-weight: 700;
+  width: 100%;
+  padding: 5px 25px;
+}

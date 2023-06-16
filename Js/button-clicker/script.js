@@ -3,5 +3,9 @@ function login(element) {
 }
 
 function hide(element) {
-  element.remove
+  element.remove()
+}
+
+function like() {
+  alert("Ninja was liked")
 }
