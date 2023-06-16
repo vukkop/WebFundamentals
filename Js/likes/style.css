@@ -1,0 +1,66 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+
+/* Utility classes */
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+}
+.flex{
+  display: flex;
+}
+.mt-1{
+  margin-top: 4px;
+}
+.mt-2{
+  margin-top: 8px;
+}
+.mt-3{
+  margin-top: 15px;
+}
+.btn {
+  padding: 3px 10px;
+  font-size: 0.7em;
+  color: antiquewhite;
+  background-color: cornflowerblue;
+  border-color: black;
+  box-shadow: 2px 2px 0px black;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 3% 3% 3%;
+  align-items: center;
+  margin-bottom: 3%;
+  color: antiquewhite;
+}
+
+.card{
+  border: 3px solid black;
+  padding: 15px;
+  margin: 4% 0%;
+  width: 55%;
+}
+
+.card-top{
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-yellow{
+  background-color:khaki;
+  color: black;
+  font-weight: 700;
+  padding: 5px 15px;
+}
+
