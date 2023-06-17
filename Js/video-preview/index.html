@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VideoLab</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,11 +28,9 @@
 
             <!-- this is a placeholder replace it with a real video -->
             <figure class="placeholder">
-                <svg style="text-anchor:middle;" width="720" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 720x400" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" dy=".3em" fill="#dee2e6" >Replace Me!</text>
-                </svg>
+                <video onmouseover="playVideo(this)" onmouseleave="pauseVideo(this)"
+                    src="assets/pexels-clément-proust-15613729-2560x1440-30fps.mp4">
+                </video>
             </figure>
 
             <!-- video info -->
