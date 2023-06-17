@@ -7,39 +7,76 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Container takes 80% width of the screen and
+    keeps all content inside -->
   <div class="container">
 
+    <!-- Navbar -->
     <nav>
       <h1>Network</h1>
     </nav>
-    <main>
 
-      div
-      <div class="card">
-        <div class="card-top flex">
-          <h2>Some User</h2>
-          <h4><span id="numberOfLikesUser0">2</span> like(s)</h4>
-          <button id="0" class="btn btn-yellow" onclick="like(this)">
-            Like
-          </button>
-        </div>
-        <div class="card-bottom mt-3">
-          <p>This is some filler text it can say anything we like</p>
+    <!-- Heading -->
+    <h2 class="heading">Your Feed</h2>
+
+    <!-- Main view -->
+    <main class="flex">
+
+      <!-- Left column -->
+      <div class="col-left flex">
+
+        <!-- User card -->
+        <div class="card-user flex">
+          <img class="user" src="icons/user-circle.png" alt="user photo">
+          <a href="#">Add an avatar</a>
+          <h2>James Doe</h2>
         </div>
       </div>
 
+      <!-- Right column -->
+      <div class="col-right flex">
 
-      <div class="card">
-        <div class="card-top flex">
-          <h2>Some User</h2>
-          <h4><span id="numberOfLikesUser1">3</span> like(s)</h4>
-          <button id="1" class="btn btn-yellow" onclick="like(this)">
-            Like
-          </button>
+        <!-- Cards -->
+        <div class="card">
+          <div class="card-top flex">
+            <h2>Neil M</h2>
+            <h4><span id="numberOfLikesUser0">2</span> like(s)</h4>
+            <button id="0" class="btn btn-yellow" onclick="like('#numberOfLikesUser0')">
+              Like
+            </button>
+          </div>
+          <div class="card-bottom mt-3">
+            <p>I just set up tjis new discord bot, let me know what you think. <a href="#">link</a></p>
+          </div>
         </div>
-        <div class="card-bottom mt-3">
-          <p>This is some filler text it can say anything we like</p>
+
+        <div class="card">
+          <div class="card-top flex">
+            <h2>Nichole K</h2>
+            <h4><span id="numberOfLikesUser1">3</span> like(s)</h4>
+            <button class="btn btn-yellow" onclick="like('#numberOfLikesUser1')">
+              Like
+            </button>
+          </div>
+          <div class="card-bottom mt-3">
+            <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+          </div>
         </div>
+
+        <div class="card">
+          <div class="card-top flex">
+            <h2>Jim R</h2>
+            <h4><span id="numberOfLikesUser2">1</span> like(s)</h4>
+            <button class="btn btn-yellow" onclick="like('#numberOfLikesUser2')">
+              Like
+            </button>
+          </div>
+          <div class="card-bottom mt-3">
+            <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+          </div>
+        </div>
+
       </div>
 
     </main>
