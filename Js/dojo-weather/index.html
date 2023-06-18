@@ -16,9 +16,9 @@
     <div class="nav container flex">
       <h1>DojoWeather</h1>
       <ul class="flex">
-        <li class="pointer">Burbank</li>
-        <li class="pointer">Chicago</li>
-        <li class="pointer">Dallas</li>
+        <li onclick="report(this)" class="pointer">Burbank</li>
+        <li onclick="report(this)" class="pointer">Chicago</li>
+        <li onclick="report(this)" class="pointer">Dallas</li>
       </ul>
     </div>
   </nav>
@@ -28,8 +28,8 @@
       <h2>San Jose</h2>
       <div>
         <label for="temperatureUnit">show temperature in</label>
-        <select name="temperatureUnit" id="temperatureUnit">
-          <option value="c">°C</option>
+        <select onchange="changeTempUnit(this)" name="temperatureUnit" id="temperatureUnit">
+          <option selected value="c">°C</option>
           <option value="f">°F</option>
         </select>
       </div>
@@ -44,8 +44,8 @@
         </div>
         <p>some rain</p>
         <div class="flex temperature">
-          <span class="high">24°</span>
-          <span class="low">18°</span>
+          <span class="high temp">24°</span>
+          <span class="low temp">18°</span>
         </div>
       </div>
       <div class="card flex col">
@@ -55,8 +55,8 @@
         </div>
         <p>some rain</p>
         <div class="flex temperature">
-          <span class="high">24°</span>
-          <span class="low">18°</span>
+          <span class="high temp">27°</span>
+          <span class="low temp">19°</span>
         </div>
       </div>
       <div class="card flex col">
@@ -66,8 +66,8 @@
         </div>
         <p>some rain</p>
         <div class="flex temperature">
-          <span class="high">24°</span>
-          <span class="low">18°</span>
+          <span class="high temp">21°</span>
+          <span class="low temp">16°</span>
         </div>
       </div>
       <div class="card flex col">
@@ -77,8 +77,8 @@
         </div>
         <p>some rain</p>
         <div class="flex temperature">
-          <span class="high">24°</span>
-          <span class="low">18°</span>
+          <span class="high temp">26°</span>
+          <span class="low temp">21°</span>
         </div>
       </div>
     </main>
@@ -93,8 +93,7 @@
           to analyse our traffic. <a href="#">Reead more...</a>
         </p>
       </div>
-      <button class="btn cookieBtn">I Accept</button>
-
+      <button onclick="accept()" class="btn cookieBtn pointer">I Accept</button>
     </div>
 
   </div>
