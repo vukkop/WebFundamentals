@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Clicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Container takes 80% width of the screen and
+    keeps all content inside -->
+
+  <!-- Navbar -->
+  <nav>
+    <div class="nav container flex">
+      <h1>DojoWeather</h1>
+      <ul class="flex">
+        <li class="pointer">Burbank</li>
+        <li class="pointer">Chicago</li>
+        <li class="pointer">Dallas</li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="heading flex">
+      <h2>San Jose</h2>
+      <div>
+        <label for="temperatureUnit">show temperature in</label>
+        <select name="temperatureUnit" id="temperatureUnit">
+          <option value="c">°C</option>
+          <option value="f">°F</option>
+        </select>
+      </div>
+    </div>
+    <hr>
+
+    <main class="flex mt-3">
+      <div class="card flex col">
+        <h3>Today</h3>
+        <div class="circle">
+          <img src="assets/some_rain.png" alt="rainy">
+        </div>
+        <p>some rain</p>
+        <div class="flex temperature">
+          <span class="high">24°</span>
+          <span class="low">18°</span>
+        </div>
+      </div>
+      <div class="card flex col">
+        <h3>Today</h3>
+        <div class="circle">
+          <img src="assets/some_sun.png" alt="sunny">
+        </div>
+        <p>some rain</p>
+        <div class="flex temperature">
+          <span class="high">24°</span>
+          <span class="low">18°</span>
+        </div>
+      </div>
+      <div class="card flex col">
+        <h3>Today</h3>
+        <div class="circle">
+          <img src="assets/some_clouds.png" alt="cloudy">
+        </div>
+        <p>some rain</p>
+        <div class="flex temperature">
+          <span class="high">24°</span>
+          <span class="low">18°</span>
+        </div>
+      </div>
+      <div class="card flex col">
+        <h3>Today</h3>
+        <div class="circle">
+          <img src="assets/some_sun.png" alt="sunny">
+        </div>
+        <p>some rain</p>
+        <div class="flex temperature">
+          <span class="high">24°</span>
+          <span class="low">18°</span>
+        </div>
+      </div>
+    </main>
+
+    <div class="pop-up flex mt-3">
+      <img class="cookieImg" src="assets/cookie.png" alt="cookie">
+      <div class="cookieText">
+        <h4>Stop! Cookie time</h4>
+        <p>
+          We use cookies (sadly not edible ones) to personalize
+          content and ads, to provide social media features and
+          to analyse our traffic. <a href="#">Reead more...</a>
+        </p>
+      </div>
+      <button class="btn cookieBtn">I Accept</button>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
